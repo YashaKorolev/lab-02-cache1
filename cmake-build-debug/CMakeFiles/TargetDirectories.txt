@@ -1,4 +1,0 @@
-/home/yasha/YashaKorolev/LabsAYa/lab-02-cache/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/yasha/YashaKorolev/LabsAYa/lab-02-cache/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/yasha/YashaKorolev/LabsAYa/lab-02-cache/cmake-build-debug/CMakeFiles/lab-02-cache.dir
-/home/yasha/YashaKorolev/LabsAYa/lab-02-cache/cmake-build-debug/CMakeFiles/test.dir
