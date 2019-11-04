@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yasha/YashaKorolev/LabsAYa/lab-02-cache/include/Method.h
+iostream
+-
+time.h
+-
+chrono
+-
+stdio.h
+-
+vector
+-
+
+/home/yasha/YashaKorolev/LabsAYa/lab-02-cache/sources/Method.cpp
+../include/Method.h
+/home/yasha/YashaKorolev/LabsAYa/lab-02-cache/include/Method.h
+

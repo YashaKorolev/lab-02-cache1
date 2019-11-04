@@ -1,0 +1,4 @@
+/home/yasha/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.7142.39/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/yasha/YashaKorolev/LabsAYa/lab-02-cache
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yasha/YashaKorolev/LabsAYa/lab-02-cache/cmake-build-debug

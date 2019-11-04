@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtemplate.a  CMakeFiles/template.dir/sources/source.cpp.o CMakeFiles/template.dir/sources/Method.cpp.o
+/usr/bin/ranlib libtemplate.a
