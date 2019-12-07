@@ -13,10 +13,10 @@ CMAKE_TOOLCHAIN_OPTS="-DCMAKE_TOOLCHAIN_FILE='`pwd`/tools/polly/sanitize-address
 CMAKE_OPTS="$CMAKE_LINKER_OPTS $CMAKE_CONFIG_OPTS $CMAKE_TOOLCHAIN_OPTS"
 cmake -H. -B_builds/sanitize-address-cxx17 $CMAKE_OPTS
 cmake --build _builds/sanitize-address-cxx17
-./_builds/sanitize-address-cxx17/tests
+#./_builds/sanitize-address-cxx17/tests
 # thread sanitizer
-CMAKE_TOOLCHAIN_OPTS="-DCMAKE_TOOLCHAIN_FILE='`pwd`/tools/polly/sanitize-thread-cxx17-pic.cmake'"
-CMAKE_OPTS="$CMAKE_LINKER_OPTS $CMAKE_CONFIG_OPTS $CMAKE_TOOLCHAIN_OPTS"
-cmake -H. -B_builds/sanitize-thread-cxx17 $CMAKE_OPTS
-cmake --build _builds/sanitize-thread-cxx17
-./_builds/sanitize-thread-cxx17/tests
+#CMAKE_TOOLCHAIN_OPTS="-DCMAKE_TOOLCHAIN_FILE='`pwd`/tools/polly/sanitize-thread-cxx17-pic.cmake'"
+#CMAKE_OPTS="$CMAKE_LINKER_OPTS $CMAKE_CONFIG_OPTS $CMAKE_TOOLCHAIN_OPTS"
+#cmake -H. -B_builds/sanitize-thread-cxx17 $CMAKE_OPTS
+#cmake --build _builds/sanitize-thread-cxx17
+#./_builds/sanitize-thread-cxx17/tests
